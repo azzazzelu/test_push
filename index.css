@@ -1,0 +1,87 @@
+body{   
+    background-color:  rgba(0, 0, 0, 0.884);
+}
+.container{
+    width: 55%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.884);
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.link{
+    margin-left: auto;
+}
+.link_item{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    margin-left: 50px;
+}
+.logo{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: red;
+    font-size: 30px;
+    gap: 20px;
+}
+.container_header{
+    width: 90%;
+    margin: 0 auto;
+}
+.try_now{
+    background: url("brood.jpg") no-repeat;
+    opacity: 0.95;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100%;
+}
+.try_now > .container{
+    padding: 250px 0 0 0;
+}
+.first_block{
+    display: flex;
+}
+.left_text{
+    width: 50%;
+    color: white;
+}
+.try{
+    background-color: red;
+    border-radius: 20px;
+    border-color: red;
+    padding: 10px 40px;
+    width: 80px;
+    cursor: pointer;
+}
+.name_course{
+    font-size: 70px;
+}
+.slogan{
+    margin-bottom: 50px;
+}
+
+.products{
+    margin: 0 auto;
+    width: 100%;
+}
+.line{
+    width: 100%;
+    border-top: 1px solid rgb(70, 67, 67);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about_goods{
+    display: flex;
+}
+.about{
+    color: white;
+    margin-left: 50px;
+}
