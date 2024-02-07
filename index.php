@@ -9,21 +9,9 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="container_header">
-            <nav class="nav">
-                <div class="logo">
-                    <img src="logo.png" width="102px" height="102px" alt="">
-                    <p>dota2learn</p>
-                </div>
-                <div class="link">
-                    <a class="link_item" href="">personal coach</a>
-                    <a class="link_item" href="">free learn</a>
-                    <a class="link_item" href="">buy account</a>
-                </div>
-            </nav>
-        </div>
-    </header>
+   <?php 
+   include_once('elements/header.php');
+   ?>
     <main>
         <div class="try_now">
             <div class="container">
@@ -92,6 +80,9 @@
             </div>
         </div>
     </main>
+    <?php 
+   include_once('elements/footer.php');
+   ?>
 </body>
 
 </html>

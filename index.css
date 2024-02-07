@@ -85,3 +85,20 @@ body{
     color: white;
     margin-left: 50px;
 }
+/* footer */
+.footer{
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    height: 250px;
+}
+.footer_content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    display: flex;
+
+}
